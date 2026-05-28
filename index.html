@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>醫學個案分析：Myxoid Liposarcoma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/index-DR597chD.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Bo55viTn.css">
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero" class="container">
+      <div class="glass-panel">
+        <h1>Myxoid Liposarcoma</h1>
+        <p class="hero-subtitle">診斷、化療決策與醫病共享決策 (SDM) 探討</p>
+        <p>基於教案問題四、五、六之綜合分析</p>
+      </div>
+      <div class="scroll-indicator">↓ Scroll to Explore</div>
+    </section>
+
+    <!-- Case Summary -->
+    <section id="summary" class="container">
+      <h2>一、 個案摘要 (Case Summary)</h2>
+      <div class="glass-panel">
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="timeline-content glass-panel">
+              <h3>患者背景與初診</h3>
+              <p><span class="badge">64 歲女性</span> <span class="badge">大學設計系教授</span></p>
+              <p><strong>主訴：</strong> 左大腿近端外側軟組織腫瘤，大小 9×7×6 cm，已存在數年且近期變大。</p>
+              <p><strong>理學檢查：</strong> 腫瘤質地偏硬、深層且不可移動 (fixed)，無明顯壓痛。</p>
+              <p><strong>初始檢查：</strong> 抽血 (Ca, P, ALP, LDH 等) 無明顯異常。MRI 顯示深層肌肉內腫瘤。</p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="timeline-content glass-panel">
+              <h3>第一次手術 (廣泛性切除)</h3>
+              <p><span class="badge">Margin: Free (4mm)</span> <span class="badge">FNCLCC grade 1</span></p>
+              <p><strong>病理報告：</strong> 腫瘤分化度2、有絲分裂1、腫瘤壞死0。確診為 Myxoid Liposarcoma。</p>
+              <p><strong>分子特徵：</strong> 帶有特徵性 t(12;16)(q13;p11) 染色體轉位 (FUS-DDIT3)。</p>
+              <p><strong>決策：</strong> 考量低惡性度且切除邊緣乾淨，決定<strong>不進行輔助性化療</strong>，採定期追蹤。</p>
+            </div>
+          </div>
+          <div class="timeline-item left">
+            <div class="timeline-content glass-panel">
+              <h3>五年後 (遠端轉移復發)</h3>
+              <p><span class="badge badge-danger">骨骼/軟組織轉移</span></p>
+              <p><strong>新病灶：</strong> 左後背側肩胛骨附近發現 6×3×3 cm 腫瘤，緊貼肋骨。切片確認為轉移。</p>
+              <p><strong>臨床意義：</strong> 展現了 MLPS 獨特的「肺外轉移」特性，偏好轉移至骨骼及脂肪組織。</p>
+              <p><strong>新決策：</strong> 改採<strong>前導性化療 (Neoadjuvant Chemotherapy)</strong>，期能縮小腫瘤後再手術。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q4: Diagnosis -->
+    <section id="diagnosis" class="container">
+      <h2>二、最可能的診斷：Myxoid Liposarcoma</h2>
+      <div class="cards-grid single-col">
+        <div class="card glass-panel">
+          <img src="./MRI.jpg" alt="MRI Scan" style="width: 100%; border-radius: 8px; margin-bottom: 1rem; object-fit: contain; height: 250px; background-color: rgba(0,0,0,0.1);">
+          <div>
+            <h3>臨床與影像依據</h3>
+            <ul>
+              <li><strong>好發部位：</strong>深層大腿軟組織為最常見位置 (佔多數)。</li>
+              <li><strong>MRI 特徵：</strong>同質訊號 (homogeneous signal)、明顯 contrast retention。</li>
+              <li><strong>年齡：</strong>中位數約 45 歲，本案 64 歲仍在合理範圍。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card glass-panel">
+          <img src="./組織學影像.jpg" alt="Histology" style="width: 100%; border-radius: 8px; margin-bottom: 1rem; object-fit: contain; height: 250px; background-color: rgba(0,0,0,0.1);">
+          <div>
+            <h3>病理組織學依據</h3>
+            <ul>
+              <li>脂肪母細胞 (lipoblasts) 呈現外觀異常。</li>
+              <li>大量 myxoid 基質。</li>
+              <li>特徵性分支狀小血管 (chicken-wire vasculature)。</li>
+              <li><strong>低惡性度：</strong> FNCLCC grade 1, RCC (Round Cell Component) &lt; 5%。若 RCC &gt; 5%，則歸類為高惡性度 (High-grade)，預後顯著變差，轉移率大幅增加。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card glass-panel">
+          <h3>分子病理學特徵</h3>
+          <ul>
+            <li>特徵性染色體轉位：<code>t(12;16)(q13;p11)</code>。</li>
+            <li>產生 <strong>FUS::DDIT3 融合基因</strong> (佔 ~95%)。此異常基因製造的嵌合蛋白會干擾脂肪細胞的正常分化，促使腫瘤形成。</li>
+            <li>DDIT3 免疫組織化學染色可作為核心輔助診斷工具，區分 MLPS 與其他圓形細胞肉瘤。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction to Chemotherapy -->
+    <section id="chemo-intro" class="container">
+      <h2>三、化療的作用與對病人的影響</h2>
+      <div class="glass-panel" style="margin-bottom: 2rem;">
+        <h3>化療在治療 Myxoid Liposarcoma 中的角色</h3>
+        <p>傳統上，肉瘤被認為對化療反應不佳，但 <strong>Myxoid Liposarcoma (MLPS)</strong> 是個例外，它被公認為是<strong>對化學治療（以及放射線治療）高度敏感</strong>的腫瘤亞型。最新的研究文獻 (如 Chowdhry 等人, 2018) 更指出，合併使用化療與放療，可以讓 MLPS 腫瘤達到極高的壞死率（平均高達 84.7% 的細胞壞死）。</p>
+        <p>常用的化療處方為 <strong>AIM</strong> (Adriamycin [Doxorubicin 小紅莓], Ifosfamide 異環磷醯胺, Mesna) 或 <strong>MAID</strong> (Mesna, Adriamycin, Ifosfamide, Dacarbazine 達卡巴仁)。這類藥物透過破壞快速分裂的細胞 DNA 結構，促使腫瘤細胞凋亡。</p>
+      </div>
+
+      <div class="accordion" style="margin-bottom: 2rem;">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            👉 點此展開：化療藥物機轉與副作用補充說明
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <p><strong>1. Doxorubicin (Adriamycin, 小紅莓)</strong> <a href="javascript:void(0)" class="popup-trigger" data-img="/Adriamycin.png">[查看藥物圖片]</a></p>
+              <ul>
+                <li><strong>機轉：</strong> 屬於 Anthracycline 類藥物，能嵌入 DNA 雙股螺旋中，干擾 Topoisomerase II 的作用，阻止細胞分裂。</li>
+                <li><strong>常見副作用：</strong> 嚴重掉髮、噁心嘔吐、骨髓抑制。</li>
+                <li><strong>特殊毒性：</strong> 累積劑量相關的<strong>心臟毒性 (Cardiotoxicity)</strong>，可能導致不可逆的心臟衰竭。</li>
+              </ul>
+              <p style="margin-top: 1rem;"><strong>2. Ifosfamide (異環磷醯胺)</strong> <a href="javascript:void(0)" class="popup-trigger" data-img="/Ifosfamide.png">[查看藥物圖片]</a></p>
+              <ul>
+                <li><strong>機轉：</strong> 屬於烷化劑 (Alkylating agent)，能與 DNA 形成交叉連結，破壞 DNA 結構，阻止細胞分裂。</li>
+                <li><strong>副作用與毒性：</strong> 除了骨髓抑制、噁心嘔吐，其代謝物 (Acrolein) 會強烈刺激膀胱黏膜，引發嚴重的<strong>出血性膀胱炎 (Hemorrhagic cystitis)</strong>。</li>
+              </ul>
+              <p style="margin-top: 1rem;"><strong>3. Mesna (美斯納)</strong> <a href="javascript:void(0)" class="popup-trigger" data-img="/Mesna.jpg">[查看藥物圖片]</a></p>
+              <ul>
+                <li><strong>機轉：</strong> 它本身沒有殺死癌細胞的作用，而是專門用來<strong>解毒</strong>的保護劑。它能在膀胱內與 Ifosfamide 的毒性代謝物結合，使其失去毒性。</li>
+                <li><strong>臨床意義：</strong> 凡是使用高劑量 Ifosfamide，<strong>絕對必須</strong>合併使用 Mesna 並給予大量點滴來保護膀胱。</li>
+              </ul>
+              <p style="margin-top: 1rem;"><strong>4. Dacarbazine (DTIC, 達卡巴仁)</strong> <a href="javascript:void(0)" class="popup-trigger" data-img="/Dacarbazine.jpg">[查看藥物圖片]</a></p>
+              <ul>
+                <li><strong>機轉：</strong> 屬於非典型烷化劑，透過將烷基加到 DNA 分子上，破壞 DNA 結構與功能，進而導致癌細胞死亡。</li>
+                <li><strong>常見副作用：</strong> <strong>極度強烈的噁心與嘔吐</strong> (屬於高致吐性藥物)、嚴重的骨髓抑制，以及注射部位的血管疼痛。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card glass-panel">
+          <h3 style="color: var(--success-color);">潛在的治療效益</h3>
+          <ul>
+            <li><strong>前導性縮小腫瘤：</strong> 若在術前給予，可以讓腫瘤體積大幅縮小、邊界更清晰，增加手術「保留肢體」的成功率並降低術中播散風險。</li>
+            <li><strong>殺死微小轉移灶：</strong> MLPS 仍有約 10-15% 的遠端轉移率（特別是骨骼轉移），全身性化療理論上能清除肉眼看不見的微小癌細胞。</li>
+            <li><strong>特別針對高風險病患：</strong> 對於大於 5cm、深層、或是高等級 (High-grade, RCC &gt; 5%) 的腫瘤，化療是降低復發的強效武器。</li>
+          </ul>
+        </div>
+        <div class="card glass-panel">
+          <h3 style="color: var(--danger-color);">對身體與生活的負面影響</h3>
+          <ul>
+            <li><strong>急性與慢性毒性：</strong> 包括嚴重的噁心嘔吐、掉髮。Doxorubicin 具備「心臟毒性」，長期使用可能導致心臟衰竭；Ifosfamide 則可能引發出血性膀胱炎。</li>
+            <li><strong>骨髓抑制與感染風險：</strong> 白血球低下會大幅增加致命性感染的機率，病患常需頻繁進出醫院施打白血球生成素 (G-CSF)。</li>
+            <li><strong>生活品質衝擊：</strong> 數個月的療程會徹底改變原本的生活節奏。以本案 64 歲即將退休的教授而言，強烈的化療副作用可能會讓她無法順利教學與享受退休生活。且最新文獻也顯示，對於低風險病患，化療<strong>尚未被證明</strong>能實質延長「整體存活期 (OS)」。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q4: Chemo Decision -->
+    <section id="decision" class="container">
+      <h2>四、化療 vs. 不化療：決策分析</h2>
+      <p>基於上述化療的特性，本案（低惡性度、已完整切除）在醫學實證上屬於「邊界個案」，沒有絕對的標準答案。</p>
+      <div class="comparison-container">
+        <div class="comparison-side no-chemo">
+          <div class="glass-panel">
+            <h3>支持「不用化療」的理由</h3>
+            <div class="comparison-content">
+              <ul>
+                <li><strong>低惡性度病理特徵：</strong> 本案為 pure MLPS (RCC &lt; 5%)，屬 FNCLCC Grade 1，本身預後較好，五年存活率高達 90% 以上。</li>
+                <li><strong>切除邊緣乾淨 (R0 Resection)：</strong> 手術已達 clear margin (4mm)，局部復發率極低，輔助化療對局部控制幫助不大。</li>
+                <li><strong>傳統化療效益爭議：</strong> 根據多項大型隨機試驗，對於低惡性度肉瘤，術後給予輔助化療並未顯著改善整體存活率 (OS)。</li>
+                <li><strong>化療毒性與生活品質：</strong> 化療會帶來骨髓抑制、心臟毒性及感染風險。64 歲患者考量退休生活品質，避免過度醫療是合理的。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="comparison-side pro-chemo">
+          <div class="glass-panel">
+            <h3>支持「做化療」的理由</h3>
+            <div class="comparison-content">
+              <ul>
+                <li><strong>腫瘤體積偏大 (High-risk feature)：</strong> 腫瘤達 9cm，多數臨床指引 (如 NCCN) 認為深層且 &gt;5cm 的肉瘤即具備較高遠端轉移風險，可考慮化療。</li>
+                <li><strong>微小轉移 (Micrometastasis) 疑慮：</strong> 即使是低惡性度，MLPS 仍有約 10-15% 的遠端轉移機率，化療可望清除潛在的微小轉移灶。</li>
+                <li><strong>對特定化療藥物高度敏感：</strong> 由於 FUS-DDIT3 融合基因特性，MLPS 相比其他肉瘤，對 <strong>Doxorubicin + Ifosfamide</strong> 或是二線藥物 <strong>Trabectedin (Yondelis)</strong> 反應率極高。</li>
+                <li><strong>預防獨特的肺外轉移：</strong> MLPS 傾向轉移至脊椎骨、腹腔脂肪等不易早期察覺的部位，積極全身性治療可作為預防手段。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q4: SDM -->
+    <section id="sdm" class="container">
+      <h2>醫病共享決策 (Shared Decision Making, SDM)</h2>
+      <p>面對治療灰色地帶，SDM 是凝聚共識的最佳工具。</p>
+      <div class="cards-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="card glass-panel">
+          <h3>Step 1: Choice Talk</h3>
+          <p><strong>告知選項存在</strong></p>
+          <p>「您的腫瘤是低惡性度且已完整切除，目前有兩個合理選擇：接受術後化療，或定期追蹤觀察。」</p>
+        </div>
+        <div class="card glass-panel">
+          <h3>Step 2: Option Talk</h3>
+          <p><strong>說明各選項利弊</strong></p>
+          <p>分析化療能降低轉移風險的好處，對比噁心、感染風險等壞處；以及觀察能維持生活品質，但承擔復發風險的狀況。</p>
+        </div>
+        <div class="card glass-panel">
+          <h3>Step 3: Decision Talk</h3>
+          <p><strong>探詢病人價值觀</strong></p>
+          <p>了解病人的退休規劃 (如旅行賞楓)、對風險的承受度。充分溝通後，尊重其最終決定。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Q5 & Q6: Discussion -->
+    <section id="discussion" class="container">
+      <h2>五、深度探討：疏失與溝通</h2>
+      <div class="glass-panel">
+        <div class="accordion">
+          
+          <div class="accordion-item">
+            <div class="accordion-header">
+              之前的醫師是否構成醫療疏失？
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                <p><strong>不構成醫療疏失的理由：</strong> 軟組織肉瘤發生率極低 (約 2/百萬)，且初期症狀與退化性疾病重疊。腫瘤生長緩慢不痛，早期難以察覺。</p>
+                <p><strong>可改進之處與鑑別診斷：</strong> 面對長達一年的慢性痠痛及腫塊，應提高警覺並安排進階影像學檢查 (如 MRI)。臨床上軟組織腫塊的 <strong>「紅旗徵象 (Red Flag Signs)」</strong> 包括：</p>
+                <ul>
+                  <li><strong>大小超過 5 公分 (Size &gt; 5cm)：</strong> 最關鍵的危險因子，大於高爾夫球大小即應切片。</li>
+                  <li><strong>位於深層筋膜下 (Deep to fascia)：</strong> 肌肉層內的腫瘤惡性比例遠高於皮下脂肪層。</li>
+                  <li><strong>持續快速變大 (Increasing in size)：</strong> 不論有無疼痛，生長速度快即為警訊。</li>
+                  <li><strong>質地堅硬、不可移動：</strong> 與周圍組織沾黏。</li>
+                </ul>
+                <p style="margin-top: 1rem;">若醫師未察覺紅旗徵象而將其誤認為良性脂肪瘤，直接進行局部切除 (Unplanned excision / "Whoops" procedure)，會導致腫瘤破裂播散，後續必須進行更大範圍的廣泛性擴除術 (Wide re-excision) 甚至截肢。本案所幸最終有進行正確的術前 MRI 評估及切片。</p>
+                <p style="margin-top: 1rem;"><strong>如何向病人解釋：</strong> 以同理心出發，承認病人的感受，客觀說明軟組織肉瘤的罕見性與早期診斷困難度。強調「幸運的是第一次手術非常成功」，避免批評前醫師以維護醫療信任。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+              術後未化療卻發生轉移，如何向病人解釋？
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                <p><strong>醫學事實：</strong> MLPS 即使是低惡性度 + R0 切除，仍有一定遠處轉移風險。且 MLPS 有獨特的「肺外轉移」偏好。</p>
+                <p><strong>轉移特徵與追蹤策略 (Staging Work-up)：</strong> 一般軟組織肉瘤以肺轉移為主，胸部 CT 即可；但 <strong>MLPS 特別容易轉移至骨骼、後腹腔、腹部與對側肢體</strong> (如本案轉移至背部肩胛骨貼著肋骨)。因此國際指引建議 MLPS 病患的追蹤與分期應該包含 <strong>全身磁振造影 (Whole Body MRI)</strong> 或是脊椎/骨盆的 MRI，才能及早發現這些隱匿的肺外轉移。</p>
+                <p style="margin-top: 1rem;"><strong>溝通策略：</strong> 誠實但有溫度地說明：「當初的決定是根據當時最好的醫學證據做出的，可惜癌症本身具有不確定性。」強調即使化療也無法保證 100% 預防轉移。最後將焦點轉向未來，說明新的治療計畫 (先化療再手術)。</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Role Play Engine -->
+    <section id="role-play" class="container">
+      <h2>六、醫病溝通情境模擬 (多輪決策)</h2>
+      
+      <div id="rp-start">
+        <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+          情境：第一次大腿腫瘤手術順利完成 (Margin free)。<br>現在要在診間討論「是否要進行輔助化療」。<br>這是一個<strong>五回合的對話模擬</strong>，每一個決定都會影響下一步，請選擇您的視角：
+        </p>
+        <div class="rp-char-select">
+          <div class="char-card" onclick="initRoleplay('doctor')">
+            <div class="char-icon">🧑‍⚕️</div>
+            <h3>扮演 主治醫師</h3>
+            <p>目標：清楚說明化療利弊，引導病人做出符合生活品質的決策。</p>
+          </div>
+          <div class="char-card" onclick="initRoleplay('patient')">
+            <div class="char-icon">👩‍🏫</div>
+            <h3>扮演 64歲教授</h3>
+            <p>目標：在恐懼與退休生活規劃中，為自己的身體做決定。</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="rp-game" class="hidden">
+        <div class="dialogue-history" id="dialogue-history">
+          <!-- Chat bubbles will go here -->
+        </div>
+        <div class="choices-container" id="choices-container">
+          <!-- Choices will go here -->
+        </div>
+        <button class="reset-btn hidden" id="reset-rp-btn" onclick="resetRoleplay()">重新遊玩</button>
+      </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal-overlay hidden">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img id="modal-image" src="" alt="Drug Image">
+      </div>
+    </div>
+
+  </body>
+</html>
